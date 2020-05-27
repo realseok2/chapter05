@@ -1,15 +1,15 @@
 package com.javaex.ex02;
 
 public class Circle_TS {
-	
+
 //---------------------------------------------------					필드	
-	
+
 	private int radius;
 
 //---------------------------------------------------					생성자
-	
+
 	public Circle_TS() {
-		
+
 	}
 
 	public Circle_TS(int radius) {
@@ -17,7 +17,7 @@ public class Circle_TS {
 	}
 
 //---------------------------------------------------					getter, setter
-	
+
 	public int getRadius() {
 		return radius;
 	}
@@ -29,34 +29,13 @@ public class Circle_TS {
 //---------------------------------------------------					draw()
 
 	public void draw() {
-		System.out.println("[원]   Radius : " + radius + " 입니다." );
+		System.out.println("[원]   Radius : " + radius + " 입니다.");
 	}
 
-	
 //---------------------------------------------------					toString()
 	@Override
 	public String toString() {
 		return "Circle_TS [radius=" + radius + "]";
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }
