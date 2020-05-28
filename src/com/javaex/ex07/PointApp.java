@@ -28,3 +28,8 @@ public class PointApp {
 	}
 
 }
+
+//					출력 결과값
+//					
+//					4
+//					4
