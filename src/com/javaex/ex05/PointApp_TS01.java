@@ -3,7 +3,7 @@ package com.javaex.ex05;
 import java.util.HashSet;
 import java.util.Set;
 
-public class PointApp_TS {
+public class PointApp_TS01 {
 
 	public static void main(String[] args) {
 

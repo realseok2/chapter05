@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class AgeMap_TS {
+public class AgeMap_TS01 {
 
 	public static void main(String[] args) {
 
