@@ -9,7 +9,7 @@ public class PointApp {
 
 		Set<Point> pSet = new HashSet<Point>();
 
-		// Point에 새로운 변수들을 지정, 생산하였습니다.
+		// Point에 새로운 변수들을 지정하였습니다.
 		Point p01 = new Point(1, 2);
 		Point p02 = new Point(3, 4);
 		Point p03 = new Point(5, 6);
@@ -17,7 +17,7 @@ public class PointApp {
 		Point p05 = new Point(9, 10);
 		Point p06 = new Point(5, 6);
 
-		// HashSet에서는 add로 추가합니다.
+		// HashSet에서는 add를 사용하여 추가합니다.
 		pSet.add(p01);
 		pSet.add(p02);
 		pSet.add(p03);

@@ -8,6 +8,7 @@ public class AgeMap {
 
 	public static void main(String[] args) {
 
+		// <String, Integer>를 사용한 HashMap 코드입니다.
 		Map<String, Integer> ageMap = new HashMap<String, Integer>();
 
 		Integer i01 = new Integer(39);
@@ -24,7 +25,7 @@ public class AgeMap {
 		ageMap.remove("김태희");
 		System.out.println(ageMap.toString());
 
-		// Hash에서는 중복이 불가능하므로 정우성이 새로 생성이 되는 것이 아니고 새로고침이 됩니다.
+		// Hash에서는 중복이 불가능하므로 정우성이 새로 생성이 되는 것이 아니고 덮어쓰기가 됩니다.
 		// 같은 방식으로 HashSet에서도 중복이 불가능합니다.
 		ageMap.put("정우성", 32912);
 		System.out.println(ageMap.toString());
@@ -47,7 +48,7 @@ public class AgeMap {
 		System.out.println(ageMap.keySet());
 		System.out.println("-----------------------------");
 		Set<String> keys = ageMap.keySet();
-		
+
 		// 향상된 for문을 사용하여 전체를 출력합니다.
 		// for ( [형식] [사용자지정이름] : [전체틀(관리하는 담겨있는 그릇)]) { }
 		for (String key : keys) {

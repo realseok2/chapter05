@@ -7,8 +7,10 @@ public class HashSetLotto {
 
 	public static void main(String[] args) {
 
-		//	Set을 하기 위해 Set으로 시작하였다.
-		//	Map을 하기 위해서는 Map으로 시작하여야 한다.
+		//	<Integer>를 사용한 HashSet코드 입니다.
+		
+		//	Set을 하기 위해 Set으로 시작하였습니다.
+		//	Map을 하기 위해서는 Map으로 시작하여야 합니다.
 		Set<Integer> lottoSet = new HashSet<Integer>();
 
 		System.out.println("Lotto 번호를 생성하는 프로그램입니다.");
